@@ -75,7 +75,7 @@ def count_down(count):
 # ---------------------------- UI SETUP ------------------------------- #
 window = Tk()
 window.title("Pomodoro Technics 🍅")
-window.config(padx=100, pady=50, bg=NAVY)
+
 
 canvas = Canvas(width=200, height=224, bg=NAVY, highlightthickness=0 )
 tomato_img = PhotoImage(file="tomato.png")
